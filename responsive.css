@@ -23,7 +23,7 @@
 
 
     .intro-home span {
-        font-size: 3vw !important;
+        font-size: 4vw !important;
     }
 
     .me {
@@ -31,16 +31,17 @@
     }
 
     .me p {
-        font-size: 3vw !important;
+        font-size: 4vw !important;
 
     }
 
     .todo {
         font-size: 2.5vw !important;
+        height: auto !important;
     }
 
     .todo li {
-        font-size: 3vw !important;
+        font-size: 4vw !important;
     }
 
 
@@ -58,15 +59,15 @@
 
 
     .introduce {
-        font-size: 3vw !important;
+        font-size: 4vw !important;
     }
 
     .introduce p {
-        font-size: 3vw !important;
+        font-size: 4vw !important;
     }
 
     .info li {
-        font-size: 3vw !important;
+        font-size: 4vw !important;
     }
 
     .info ul {
@@ -74,21 +75,26 @@
     }
 
     .random p {
-        font-size: 3.5vw !important;
+        font-size: 4vw !important;
     }
 
     .random button {
-        font-size: 3vw !important;
+        font-size: 3.5vw !important;
     }
 
     .socials {
-        font-size: 3vw !important;
+        font-size: 4vw !important;
     }
 
     #star-a {
         font-size: 9vw !important;
     }
 
+    .nav-icon{
+        width: 45px !important;
+        height: 42px !important;
+        font-size: 6.5vw !important;
+    }
 
 
 }
