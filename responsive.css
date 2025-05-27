@@ -17,7 +17,7 @@
         width: 95% !important;
     }
 
-    .resources-container{
+    .resources-container {
         width: 91% !important;
     }
 
@@ -90,12 +90,15 @@
         font-size: 9vw !important;
     }
 
-    .nav-icon{
+    .nav-icon {
         width: 45px !important;
         height: 42px !important;
         font-size: 6.5vw !important;
     }
 
+    .todo #text-highlight  {
+        width: 70px !important;
+    }
 
 }
 
@@ -130,6 +133,7 @@
         grid-template-columns: repeat(4, 1fr) !important;
 
     }
+
 
 
 }
