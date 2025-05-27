@@ -1,7 +1,7 @@
 /* responsiv */
 @media screen and (max-width: 767px) {
     .window {
-        width: 90% !important;
+        width: 95% !important;
     }
 
     .intro-home h1 {
