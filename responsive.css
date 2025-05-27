@@ -1,0 +1,129 @@
+/* responsiv */
+@media screen and (max-width: 767px) {
+    .window {
+        width: 90% !important;
+    }
+
+    .intro-home h1 {
+        font-size: 9vw !important;
+    }
+
+    .intro-home #stars {
+        font-size: 7vw !important;
+    }
+
+    .todo,
+    .playlist {
+        width: 95% !important;
+    }
+
+    .resources-container{
+        width: 91% !important;
+    }
+
+
+    .intro-home span {
+        font-size: 3vw !important;
+    }
+
+    .me {
+        font-size: 2.5vw !important;
+    }
+
+    .me p {
+        font-size: 3vw !important;
+
+    }
+
+    .todo {
+        font-size: 2.5vw !important;
+    }
+
+    .todo li {
+        font-size: 3vw !important;
+    }
+
+
+    .info,
+    .fav,
+    .random,
+    .socials {
+        width: 95% !important;
+    }
+
+    .poraloid {
+        left: 10px !important;
+        width: 35% !important;
+    }
+
+
+    .introduce {
+        font-size: 3vw !important;
+    }
+
+    .introduce p {
+        font-size: 3vw !important;
+    }
+
+    .info li {
+        font-size: 3vw !important;
+    }
+
+    .info ul {
+        line-height: 30px !important;
+    }
+
+    .random p {
+        font-size: 3.5vw !important;
+    }
+
+    .random button {
+        font-size: 3vw !important;
+    }
+
+    .socials {
+        font-size: 3vw !important;
+    }
+
+    #star-a {
+        font-size: 9vw !important;
+    }
+
+
+
+}
+
+
+
+
+@media screen and (min-width:767px) and (max-width: 1024px) {
+    .window {
+        width: 90%;
+        font-size: 2vw !important;
+
+    }
+
+    .poraloid {
+        left: 1px !important;
+        width: 30% !important;
+    }
+
+    .introduce {
+        font-size: 2.5vw !important;
+    }
+
+    .introduce p {
+        font-size: 2.5vw !important;
+    }
+
+    .info li {
+        font-size: 2.5vw !important;
+    }
+
+    .fav-content {
+        grid-template-columns: repeat(4, 1fr) !important;
+
+    }
+
+
+}

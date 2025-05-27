@@ -1,0 +1,230 @@
+        .intro-me {
+            margin: auto;
+            width: 90%;
+            height: auto;
+            border: 1px solid #A0CADD;
+            border-radius: 10px;
+            background-color: #FFFFFF;
+            margin-top: 30px;
+            box-shadow: 2px 2px rgba(223, 200, 245, 0.345);
+            overflow: hidden;
+        }
+
+
+
+        .introduce {
+            border-radius: 10px;
+            border: 1px solid #a0cadd;
+            width: 90%;
+            margin: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding: 0px;
+            background-color: #fbfbfb;
+            background-image: url("data:image/svg+xml,<svg id='patternId' width='30' height='30' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='20' height='20' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='%23ffffffff'/><path d='M 10,-2.55e-7 V 20 Z M -1.1677362e-8,10 H 20 Z'  stroke-width='1' stroke='%23ddf5f7ff' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+            padding: 20px;
+            color: #3B577D;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 2px 2px rgba(223, 200, 245, 0.345);
+
+        }
+
+        .poraloid {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            transition: transform 0.3s ease;
+
+        }
+
+        .poraloid:hover {
+            animation: rotate-wiggle 1s ease-in-out;
+        }
+
+        @keyframes rotate-wiggle {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            25% {
+                transform: rotate(-3deg);
+            }
+
+            50% {
+                transform: rotate(3deg);
+            }
+
+            75% {
+                transform: rotate(-3deg);
+            }
+
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+
+        .svg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .layer1 {
+            z-index: 1;
+        }
+
+        .layer2 {
+            z-index: 2;
+        }
+
+        .introd-text {
+            flex: 1;
+        }
+
+        .wrapper2 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px;
+        }
+
+        .info {
+            box-sizing: border-box;
+            width: 45%;
+            height: auto;
+            border: 1px solid #A0CADD;
+            border-radius: 10px;
+            background-color: #ffffff;
+            overflow: auto;
+            box-shadow: 2px 2px rgba(223, 200, 245, 0.345);
+
+        }
+
+
+        .fav {
+            box-sizing: border-box;
+            width: 45%;
+            height: auto;
+            border: 1px solid #A0CADD;
+            border-radius: 10px;
+            background-color: #ffffff;
+            overflow: hidden;
+            align-items: center;
+            box-shadow: 2px 2px rgba(223, 200, 245, 0.345);
+
+        }
+
+        .fav-content {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 5px;
+            padding: 15px;
+            justify-content: center;
+            margin: auto !important;
+        }
+
+        .fav-img {
+            width: 100%;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.6s ease;
+            border: 1px solid #A0CADD;
+            margin: auto !important;
+
+        }
+
+        .fav-img:hover {
+            transform: scale(1.1);
+            z-index: 1 !important;
+
+        }
+
+
+        .random {
+            box-sizing: border-box;
+            width: 45%;
+            height: auto;
+            border: 1px solid #A0CADD;
+            border-radius: 10px;
+            background-color: #ffffff;
+            overflow: auto;
+            text-align: center;
+            box-shadow: 2px 2px rgba(223, 200, 245, 0.345);
+
+        }
+
+
+        .socials {
+            box-sizing: border-box;
+            width: 45%;
+            height: auto;
+            border: 1px solid #A0CADD;
+            border-radius: 10px;
+            background-color: #ffffff;
+            overflow: auto;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 4 4'%3E%3Cpath fill='%23a0cadd' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+            box-shadow: 2px 2px rgba(223, 200, 245, 0.345);
+
+        }
+
+        .socials-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 10px;
+            margin: 0 auto !important;
+
+        }
+
+        .interest {
+            background-color: #E0F5FE;
+            color: #4A7A9D;
+            padding: 8px 10px;
+            border-radius: 15px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: 1px solid transparent;
+            border: 1px solid #A0CADD;
+
+        }
+
+        .interest:hover {
+            background-color: #D0E7F5;
+            transform: translateY(-2px);
+        }
+
+        button {
+            background-color: #E0F5FE;
+            color: #3B577D;
+            border: none;
+            padding: 5px 15px;
+            font-size: 16px;
+            border-radius: 20px;
+            border: solid #3B577D 1px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-bottom: 20px;
+            margin-top: -20px;
+
+            box-shadow: 2px 2px rgba(223, 200, 245, 0.345);
+
+            transition: transform 0.2s ease;
+
+        }
+
+        button:hover {
+            background-color: #a0cadd;
+            color: #3B577D;
+        }
+
+        button:active {
+            transform: scale(1.1);
+
+        }
